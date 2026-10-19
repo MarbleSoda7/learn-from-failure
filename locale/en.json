@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Learn From Failure",
+    "description": "Records tool execution failures, analyzes patterns, and prevents repeated mistakes by injecting lessons into system prompts."
+  }
+}

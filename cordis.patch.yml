@@ -1,0 +1,3 @@
+- insert:
+    - id: learn-from-failure
+      name: '@local/learn-from-failure'

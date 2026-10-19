@@ -1,0 +1,50 @@
+{
+  "name": "@dsh-plugin/learn-from-failure",
+  "version": "1.0.3",
+  "description": "Learn from tool execution failures and prevent repeated mistakes in DeepSeek Harness",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon.svg": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "error-learning",
+    "ai-improvement",
+    "failure-detection"
+  ],
+  "author": "Learn From Failure Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/learn-from-failure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/learn-from-failure/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/learn-from-failure#readme",
+  "peerDependencies": {
+    "zod": "^3.0.0",
+    "@deepseek-ai/dsh-storage-domain": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
